@@ -22,7 +22,9 @@ Use this software **at your own risk**.
 
 **JuneAI Soft** saves time, simplifies multi-account management, and provides a transparent interface for point farming.
 
----
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+
 
 ## 📦 Installation Guide
 
