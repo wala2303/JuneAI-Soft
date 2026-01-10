@@ -1,3 +1,6 @@
+# Disclaimer:
+By using this software, you take full responsibility for your actions. During early testing, 3 out of 9 accounts were blocked due to automation. Use at your own risk.
+
 # INSTALLATION GUIDE
 1. Установите Python 3.13.3 (обязательно добавить в PATH)
 [Download Python](https://www.python.org/downloads/)
@@ -34,6 +37,6 @@
 # Гайд на IMAP (для gmail) 
 *чтобы софт сам брал код с почты и логинился в акк автоматически*
 
-1. Включить 2FA (двухфакторку у почты) - https://myaccount.google.com/security
+1. Включить 2FA - https://myaccount.google.com/security
 2. Создать пароль IMAP и придумать любое название - https://myaccount.google.com/apppasswords
 3. Вставить пароль в src/profiles.json в соответсвующую почту
