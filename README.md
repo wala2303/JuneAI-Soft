@@ -160,7 +160,9 @@ Allows the software to automatically fetch login codes from email.
 src/profiles.json → imapPassword
 ```
 
----
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+
 
 ## ❗ Notes
 - Automation always carries risk
