@@ -57,7 +57,7 @@ Steps inside the app:
 
 ### 5️⃣ Start farming
 Once all profiles are logged in:
-- Select **Start farming** from the menu
+- Select **Start farm** from the menu
 
 ---
 
