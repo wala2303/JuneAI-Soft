@@ -137,5 +137,22 @@ src/profiles.json → imapPassword
 
 ---
 
+### File documentation
+
+**main.py**
+- `hue_to_hex(h)` → Converts hue to HEX color for console output.
+- `next_color()` → Generates next color for visualization.
+
+**grind.py**
+- `wait_for_update(page, selector, previous_state)` → Waits for page element text to change.
+- `safe_style(value)` → Returns valid color code for console output.
+
+**soft.py**
+- `parse_hms(time_str)` → Converts "HH:MM:SS" into seconds.
+- `safe_style(value)` → Safe color handling for parallel execution display.
+
+
+---
+
 ## ⭐ Support
 If this project helped you — consider starring the repository 🙂
