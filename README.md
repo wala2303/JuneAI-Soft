@@ -1,4 +1,4 @@
-# 🚀 June Automation Tool
+# 🚀 June AI Soft
 
 ⚠️ **DISCLAIMER**  
 By using this software, you take full responsibility for your actions.  
