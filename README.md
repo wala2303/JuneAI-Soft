@@ -1,42 +1,141 @@
-# DISCLAIMER:
-By using this software, you take full responsibility for your actions. During early testing, 3 out of 9 accounts were blocked due to automation. Use at your own risk.
+# 🚀 June Automation Tool
 
-# INSTALLATION GUIDE
-1. Установите Python 3.13.3 (обязательно добавить в PATH)
-[Download Python](https://www.python.org/downloads/)
+⚠️ **DISCLAIMER**  
+By using this software, you take full responsibility for your actions.  
+During early testing **3 out of 9 accounts were blocked due to automation**.  
+Use this software **at your own risk**.
 
-2. После установки Python нужно загрузить зависимости:
+---
 
-2.1: запустить install.bat -- установит зависимости
+## 📦 Installation Guide
 
-2.2: запустить install browser.bat -- установит браузер для работы софта
+### 1️⃣ Install Python
+Install **Python 3.13.3** and **make sure to add it to PATH**.
 
-3. Нужно добавить аккаунты в софт: *src/profiles.json* - добавьте почты связанные с вашими аккаунтами в June
+🔗 Download: https://www.python.org/downloads/
 
-4. После добавления профилей в файлы - запускаете софт -> *start.bat (если не через start.bat то могут возникнуть ошибки с библиотеками)*
-Выбираете - *Launch profile* - в меню
-Заходите на каждый профиль и регистрируете/логинетесь в соответствующий аккаунт June
-Почта профиля в софте = почта аккаунта в June
+---
 
-5. Когда все профили залогинены можно приступать к фарму выбрав в меню - *Start farming*
+### 2️⃣ Install dependencies
 
-> Чтобы не логиниться в аккаунты заново при обновлении на новую версию софта, можно перекинуть папку src/profiles в новую версию софта
-> В ней находятся ваши куки браузера для каждого профиля
+After installing Python, run:
 
+- `install.bat` — installs required Python dependencies  
+- `install browser.bat` — installs the browser required for the software  
 
-# About src/profiles.json
+⚠️ **Both steps are mandatory**
+
+---
+
+### 3️⃣ Add accounts
+Open the file:
+
+```
+src/profiles.json
+```
+
+Add emails associated with your **June** accounts.
+
+---
+
+### 4️⃣ First launch & login
+Start the software **only via**:
+
+```
+start.bat
+```
+
+> Running without `start.bat` may cause library errors.
+
+Steps inside the app:
+1. Select **Launch profile**
+2. Open each profile
+3. Register or log in to the corresponding **June** account  
+   - Profile email **must match** the June account email
+
+---
+
+### 5️⃣ Start farming
+Once all profiles are logged in:
+- Select **Start farming** from the menu
+
+---
+
+## ♻️ Updating the software (important)
+
+To avoid re-login after updating to a new version:
+
+```
+Copy the folder:
+src/profiles
+```
+
+Into the new version of the software.
+
+📌 This folder contains **browser cookies** for each profile.
+
+---
+
+## 📄 profiles.json structure
+
+Example:
+
+```json
 {
-    "email": "aviasales@gmail.com", -- почта аккаунта, в софте используется для логирования и автологина если настроен IMAP
-    "points": 22491,                -- кол-во поинтов, софт сам определяет их и обновляет
-    "login": false,                 -- булевый параметр для функции автологина: означает активность сессии
-    "proxy": "",                    -- прокси (если честно, я мало тестил эту функцию, так что вам возможно придется ее переделать - 89 строчка soft.py)
-    "imapPassword": ""              -- пароль imap для автологина
+    "email": "aviasales@gmail.com",
+    "points": 22491,
+    "login": false,
+    "proxy": "",
+    "imapPassword": ""
 }
+```
 
+### Field description:
+- **email** — June account email (used for logging and IMAP auto-login)
+- **points** — current points (auto-detected and updated)
+- **login** — session state (used for auto-login)
+- **proxy** — proxy settings  
+  ⚠️ Barely tested — you may need to adjust logic (`soft.py`, line ~89)
+- **imapPassword** — IMAP app password for auto-login
 
-# Гайд на IMAP (для gmail) 
-*чтобы софт сам брал код с почты и логинился в акк автоматически*
+---
 
-1. Включить 2FA - https://myaccount.google.com/security
-2. Создать пароль IMAP и придумать любое название - https://myaccount.google.com/apppasswords
-3. Вставить пароль в src/profiles.json в соответсвующую почту
+## ⚙️ Configuration
+
+You can customize colors and some settings in:
+
+```
+config.yaml
+```
+
+---
+
+## 📬 IMAP Auto-login Guide (Gmail)
+
+Allows the software to automatically fetch login codes from email.
+
+### Steps:
+1. Enable **2FA**  
+   https://myaccount.google.com/security
+
+2. Create an **App Password**  
+   https://myaccount.google.com/apppasswords  
+   (Name can be anything)
+
+3. Paste the generated password into:
+
+```
+src/profiles.json → imapPassword
+```
+
+---
+
+## ❗ Notes
+- Automation always carries risk
+- Use fresh or warmed accounts
+- Proxies are recommended for large-scale usage
+
+---
+
+## ⭐ Support
+If this project helped you — consider starring the repository 🙂
