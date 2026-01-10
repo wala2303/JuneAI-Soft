@@ -1,4 +1,4 @@
-# Disclaimer:
+# DISCLAIMER:
 By using this software, you take full responsibility for your actions. During early testing, 3 out of 9 accounts were blocked due to automation. Use at your own risk.
 
 # INSTALLATION GUIDE
