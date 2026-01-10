@@ -91,8 +91,6 @@ Into the new version of the software.
 
 📌 This folder contains **browser cookies** for each profile.
 
----
-
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
