@@ -7,6 +7,21 @@ Use this software **at your own risk**.
 
 ---
 
+## About JuneAI Soft
+
+**JuneAI Soft** is a fully automated tool for farming points in the **JuneAI** project. Originally created for personal use, it is now shared on GitHub as a portfolio project. These points can potentially be used for project airdrops.
+
+**Key features:**  
+- Supports multiple accounts running in parallel.  
+- Automates text, image, and video requests, creating new chats until points stop accumulating.  
+- Tracks daily account limits automatically.  
+- Displays up-to-date points for each account in a clean TUI table.  
+- Switches seamlessly between different request modules for maximum efficiency.
+
+**JuneAI Soft** saves time, simplifies multi-account management, and provides a transparent interface for point farming.
+
+---
+
 ## 📦 Installation Guide
 
 ### 1️⃣ Install Python
