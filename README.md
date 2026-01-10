@@ -81,13 +81,22 @@ Into the new version of the software.
 Example:
 
 ```json
-{
-    "email": "aviasales@gmail.com",
-    "points": 22491,
-    "login": false,
-    "proxy": "",
-    "imapPassword": ""
-}
+[
+   {
+       "email": "aviasales@gmail.com",
+       "points": 22491,
+       "login": false,
+       "proxy": "",
+       "imapPassword": ""
+   },
+   {
+       "email": "aviasales2@gmail.com",
+       "points": 222,
+       "login": false,
+       "proxy": "",
+       "imapPassword": "abcd abcd abcd abcd"
+   }
+]
 ```
 
 ### Field description:
