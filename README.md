@@ -69,10 +69,6 @@ Start the software **only via**:
 start.bat
 ```
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-
-
 > Running without `start.bat` may cause library errors.
 
 Steps inside the app:
@@ -103,6 +99,10 @@ Into the new version of the software.
 📌 This folder contains **browser cookies** for each profile.
 
 ---
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+
 
 ## 📄 profiles.json structure
 
