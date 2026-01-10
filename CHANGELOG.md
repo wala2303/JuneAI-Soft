@@ -1,4 +1,4 @@
-# JuneAI Soft
+# <img src="icons/juneai.png" width="40" /> JuneAI Soft
 
 ---
 
