@@ -137,20 +137,11 @@ src/profiles.json → imapPassword
 
 ---
 
-### File documentation
+## 🗂️ Project Structure
 
-**main.py**
-- `hue_to_hex(h)` → Converts hue to HEX color for console output.
-- `next_color()` → Generates next color for visualization.
+Below is the folder and file structure of the JuneAI Soft project, with a brief description of each file:
 
-**grind.py**
-- `wait_for_update(page, selector, previous_state)` → Waits for page element text to change.
-- `safe_style(value)` → Returns valid color code for console output.
-
-**soft.py**
-- `parse_hms(time_str)` → Converts "HH:MM:SS" into seconds.
-- `safe_style(value)` → Safe color handling for parallel execution display.
-
+а
 
 ---
 
